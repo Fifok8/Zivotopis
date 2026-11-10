@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Portfolio of Filip Čurda — business, analytics, technology and creative problem-solving.">
+<title>Filip Čurda — Portfolio</title>
+<style>
+:root{--bg:#0b1020;--panel:#121a2d;--text:#eef3ff;--muted:#aab6ce;--accent:#8ce0c1;--line:#26334d}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif}
+a{color:inherit;text-decoration:none}.wrap{width:min(1080px,calc(100% - 40px));margin:auto}
+nav{display:flex;justify-content:space-between;align-items:center;padding:24px 0;border-bottom:1px solid var(--line)}
+.logo{font-weight:800;letter-spacing:.08em}.navlinks{display:flex;gap:24px;color:var(--muted);font-size:14px}
+.hero{padding:100px 0 82px;display:grid;grid-template-columns:1.4fr .6fr;gap:50px;align-items:center}
+.eyebrow{color:var(--accent);font-size:13px;font-weight:700;letter-spacing:.16em;text-transform:uppercase}
+h1{font-size:clamp(44px,7vw,78px);line-height:1.02;letter-spacing:-.055em;margin:18px 0 24px}
+.lead{font-size:20px;color:var(--muted);max-width:680px}
+.actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:32px}
+.btn{padding:12px 18px;border-radius:9px;border:1px solid var(--line);font-weight:650}.primary{background:var(--accent);color:#0b1720;border-color:var(--accent)}
+.hero-card{border:1px solid var(--line);background:linear-gradient(145deg,#17243b,#101729);border-radius:18px;padding:28px}
+.hero-card .big{font-size:48px;font-weight:800;letter-spacing:-.06em;color:var(--accent)}
+.hero-card p{color:var(--muted);margin:6px 0 0}
+section{padding:58px 0;border-top:1px solid var(--line)}h2{font-size:30px;letter-spacing:-.035em;margin:0 0 24px}
+.intro{max-width:780px;color:var(--muted);font-size:18px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:24px}
+.card h3{margin:0 0 8px;font-size:19px}.card p{margin:0;color:var(--muted)}
+.tagrow{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}.tag{font-size:12px;color:var(--accent);border:1px solid #34534f;border-radius:99px;padding:5px 10px}
+.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.skill{padding:18px;border-left:2px solid var(--accent);background:var(--panel);border-radius:0 10px 10px 0}
+.skill strong{display:block;margin-bottom:5px}.skill span{font-size:14px;color:var(--muted)}
+.timeline{display:grid;grid-template-columns:150px 1fr;gap:22px;padding:18px 0;border-bottom:1px solid var(--line)}
+.timeline time{color:var(--accent);font-weight:700}.timeline p{margin:4px 0 0;color:var(--muted)}
+footer{padding:38px 0 55px;color:var(--muted);display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+@media(max-width:720px){.hero{grid-template-columns:1fr;padding:70px 0 55px}.hero-card{max-width:360px}.grid,.skills{grid-template-columns:1fr}.navlinks{gap:12px;font-size:12px}.timeline{grid-template-columns:1fr;gap:4px}.navlinks a:nth-child(3){display:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav><a class="logo" href="#">FC<span style="color:var(--accent)">.</span></a><div class="navlinks"><a href="#about">About</a><a href="#work">Projects</a><a href="#skills">Skills</a><a href="#journey">Journey</a></div></nav>
+<main>
+<header class="hero">
+<div>
+<div class="eyebrow">Student · Business × Technology</div>
+<h1>Filip Čurda<span style="color:var(--accent)">.</span></h1>
+<p class="lead">I’m interested in how business, data and technology come together to solve real problems and create useful things.</p>
+<div class="actions"><a class="btn primary" href="#work">Explore my work ↘</a><a class="btn" href="#about">More about me</a></div>
+</div>
+<aside class="hero-card"><div class="eyebrow">My approach</div><div class="big">Think.<br>Build.<br>Improve.</div><p>Curiosity, clear thinking and practical execution.</p></aside>
+</header>
+<section id="about">
+<div class="eyebrow">01 / About</div><h2>Curious by nature. Practical by choice.</h2>
+<p class="intro">I’m a student at C. S. Lewis Lyceum in Bratislava, exploring the intersection of business, analytics and digital technology. I enjoy presenting ideas, thinking critically and working with people to turn an initial concept into something useful. I’m especially interested in data-driven decision-making, innovation and entrepreneurship.</p>
+</section>
+<section id="work">
+<div class="eyebrow">02 / Selected work</div><h2>Projects & experience</h2>
+<div class="grid">
+<article class="card"><h3>Infosluch fundraising initiative</h3><p>Contributed to a fundraising project supporting families with children with hearing impairments. The campaign raised €2,645 — more than five times its original target.</p><div class="tagrow"><span class="tag">Social impact</span><span class="tag">Communication</span><span class="tag">Fundraising</span></div></article>
+<article class="card"><h3>School mini-hackathon — 1st place</h3><p>Worked on a practical challenge in a time-limited team setting, combining structured thinking, collaboration and a focus on a working solution.</p><div class="tagrow"><span class="tag">Problem-solving</span><span class="tag">Teamwork</span></div></article>
+<article class="card"><h3>Live bus departures board</h3><p>Created a WordPress-based live departures board, bringing together information and a simple digital interface to make it easier to access.</p><div class="tagrow"><span class="tag">WordPress</span><span class="tag">Digital tools</span><span class="tag">UX thinking</span></div></article>
+<article class="card"><h3>Runcycle — service design thinking</h3><p>Explored a business idea through service-design and business-thinking methods, focusing on the user, the value proposition and how a service could work in practice.</p><div class="tagrow"><span class="tag">Business model</span><span class="tag">Service design</span></div></article>
+</div>
+</section>
+<section id="skills">
+<div class="eyebrow">03 / Capabilities</div><h2>What I bring</h2>
+<div class="skills">
+<div class="skill"><strong>Business & strategy</strong><span>Strategic thinking, business analysis, presenting ideas and understanding user needs.</span></div>
+<div class="skill"><strong>Digital & technical</strong><span>Basic programming, Discord bots, WordPress, Canva, Figma and Google Workspace.</span></div>
+<div class="skill"><strong>Working with people</strong><span>Teamwork, project coordination, client communication and fundraising.</span></div>
+</div>
+</section>
+<section id="journey">
+<div class="eyebrow">04 / Background</div><h2>My journey so far</h2>
+<div class="timeline"><time>Education</time><div><strong>C. S. Lewis Lyceum · Bratislava</strong><p>Secondary education with a broad focus including mathematics, programming, global studies, languages and economics-related thinking.</p></div></div>
+<div class="timeline"><time>Interests</time><div><strong>Business analytics · Innovation · Entrepreneurship</strong><p>Interested in studying how data and technology can support better business decisions and new ideas.</p></div></div>
+<div class="timeline"><time>Currently growing</time><div><strong>Turning curiosity into capability</strong><p>Developing stronger technical knowledge, time management, professional communication and confidence in new environments.</p></div></div>
+</section>
+<section id="contact">
+<div class="eyebrow">05 / Contact</div><h2>Let’s connect.</h2><p class="intro">Interested in business, technology, analytics or a project worth building? I’d be happy to connect.</p>
+<p style="color:var(--muted)">Add your email and LinkedIn profile here before publishing.</p>
+</section>
+</main>
+<footer><span>© 2026 Filip Čurda</span><span>Built around curiosity and useful ideas.</span></footer>
+</div>
+</body></html>
